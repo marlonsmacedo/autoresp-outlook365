@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "autoresp-outlook365"
+version = "0.1.0"
+description = "Script criado para ler caixa de email do Outlook e procurar por determinado email, e encaminhar mensagem dinãmica baseada no conteúdo do email."
+authors = ["Marlon Macedo <malon.s.macedo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
